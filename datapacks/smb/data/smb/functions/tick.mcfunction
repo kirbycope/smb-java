@@ -54,7 +54,7 @@ execute as @a[scores={countdown=0..,w1l1=0},tag=!intro] run scoreboard players r
 execute as @a[scores={countdown=1..}] run function smb:timer
 
 # Running out of time warning (100 remaining)
-execute as @a[scores={countdown=2000}] run playsound music_disc.cat player @s
+execute as @a[scores={countdown=2000}] run playsound music_disc.cat music @s
 
 # Kill timed out player
 tag @a[scores={countdown=0}] add timeout

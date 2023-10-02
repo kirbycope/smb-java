@@ -6,7 +6,7 @@ execute as @a[scores={timer=1}] run item replace entity @s armor.head with minec
 
 #execute as @a[scores={timer=80}] run camera @s set minecraft:third_person
 execute as @a[scores={timer=80}] run item replace entity @s armor.head with minecraft:leather_helmet
-execute as @a[scores={timer=80}] run playsound music_disc.11 player @s
+execute as @a[scores={timer=80}] run playsound music_disc.11 music @s
 execute as @a[scores={timer=80}] run tag @a remove intro
 
 execute as @a[scores={timer=80}] run scoreboard players set @a timer 0
