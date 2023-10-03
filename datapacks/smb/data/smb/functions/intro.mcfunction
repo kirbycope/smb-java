@@ -1,6 +1,8 @@
 execute as @a[scores={timer=0}] run scoreboard players set @s timer 1
 
 execute as @a[scores={timer=1}] run function smb:resetw1l1
+execute as @a[scores={timer=1}] run effect give @s instant_health 1 255 true
+execute as @a[scores={timer=1}] run effect give @s saturation 1 255 true
 #execute as @a[scores={timer=1}] run camera @s set minecraft:first_person
 execute as @a[scores={timer=1}] run item replace entity @s armor.head with minecraft:carved_pumpkin
 
