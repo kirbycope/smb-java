@@ -30,6 +30,7 @@ execute as @a[scores={crouching=0,facing=1,jumping=1},tag=!intro,tag=!outro,tag=
 # ⍰
 execute at @a[tag=init] if block ~ ~1.8 ~ minecraft:black_stained_glass run function smb:lotto
 # 🧱
+execute at @a[tag=init] if block ~ ~1.8 ~ minecraft:blue_concrete run playsound entity.item.break music @s
 execute at @a[tag=init] if block ~ ~1.8 ~ minecraft:blue_concrete run setblock ~ ~1.8 ~ minecraft:air destroy
 kill @e[type=item]
 # ⍰ (Hidden) 
