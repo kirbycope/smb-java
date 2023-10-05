@@ -15,17 +15,17 @@ scoreboard players set @a[tag=init] jumping 0
 execute at @a if block ~ ~-1 ~ minecraft:air run scoreboard players set @a[tag=init] jumping 1
 
 # Standing, looking right
-execute as @a[scores={crouching=0,facing=0,jumping=0},tag=!intro,tag=!outro,tag=!timeout] run item replace entity @s armor.head with minecraft:leather_helmet
+execute as @a[scores={crouching=0,facing=0,jumping=0},tag=!intro,tag=!outro,tag=!timeout] run item replace entity @s armor.head with minecraft:carved_pumpkin{CustomModelData:1}
 # Standing, looking left
-execute as @a[scores={crouching=0,facing=1,jumping=0},tag=!intro,tag=!outro,tag=!timeout] run item replace entity @s armor.head with minecraft:chainmail_helmet
+execute as @a[scores={crouching=0,facing=1,jumping=0},tag=!intro,tag=!outro,tag=!timeout] run item replace entity @s armor.head with minecraft:carved_pumpkin{CustomModelData:2}
 # Crouching, looking right
-execute as @a[scores={crouching=1,facing=0},tag=!intro,tag=!outro,tag=!timeout] run item replace entity @s armor.head with minecraft:iron_helmet
+execute as @a[scores={crouching=1,facing=0},tag=!intro,tag=!outro,tag=!timeout] run item replace entity @s armor.head with minecraft:carved_pumpkin{CustomModelData:3}
 # Crouching, looking left
-execute as @a[scores={crouching=1,facing=1},tag=!intro,tag=!outro,tag=!timeout] run item replace entity @s armor.head with minecraft:golden_helmet
+execute as @a[scores={crouching=1,facing=1},tag=!intro,tag=!outro,tag=!timeout] run item replace entity @s armor.head with minecraft:carved_pumpkin{CustomModelData:5}
 # Jumping, looking right
-execute as @a[scores={crouching=0,facing=0,jumping=1},tag=!intro,tag=!outro,tag=!timeout] run item replace entity @s armor.head with minecraft:diamond_helmet
+execute as @a[scores={crouching=0,facing=0,jumping=1},tag=!intro,tag=!outro,tag=!timeout] run item replace entity @s armor.head with minecraft:carved_pumpkin{CustomModelData:6} 
 # Jumping, looking left
-execute as @a[scores={crouching=0,facing=1,jumping=1},tag=!intro,tag=!outro,tag=!timeout] run item replace entity @s armor.head with minecraft:netherite_helmet
+execute as @a[scores={crouching=0,facing=1,jumping=1},tag=!intro,tag=!outro,tag=!timeout] run item replace entity @s armor.head with minecraft:carved_pumpkin{CustomModelData:7} 
 
 # ⍰
 execute at @a[tag=init] if block ~ ~1.8 ~ minecraft:black_stained_glass run function smb:lotto
