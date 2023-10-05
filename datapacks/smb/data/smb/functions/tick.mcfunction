@@ -19,7 +19,7 @@ execute as @a[scores={crouching=0,facing=0,jumping=0},tag=!intro,tag=!outro,tag=
 # Standing, looking left
 execute as @a[scores={crouching=0,facing=1,jumping=0},tag=!intro,tag=!outro,tag=!timeout] run item replace entity @s armor.head with minecraft:carved_pumpkin{CustomModelData:2}
 # Crouching, looking right
-execute as @a[scores={crouching=1,facing=0},tag=!intro,tag=!outro,tag=!timeout] run item replace entity @s armor.head with minecraft:carved_pumpkin{CustomModelData:3}
+execute as @a[scores={crouching=1,facing=0},tag=!intro,tag=!outro,tag=!timeout] run item replace entity @s armor.head with minecraft:carved_pumpkin{CustomModelData:4}
 # Crouching, looking left
 execute as @a[scores={crouching=1,facing=1},tag=!intro,tag=!outro,tag=!timeout] run item replace entity @s armor.head with minecraft:carved_pumpkin{CustomModelData:5}
 # Jumping, looking right
