@@ -61,7 +61,7 @@ execute as @a[scores={countdown=1..}] run function smb:timer
 execute as @a[scores={countdown=2000}] run playsound music_disc.cat music @s
 
 # Kill falling player
-execute as @a at @s run tag @a[y=46,distance=1] add timeout
+execute as @a at @s run tag @a[y=46,dy=-2] add timeout
 
 # Kill timed out player
 tag @a[scores={countdown=0}] add timeout
