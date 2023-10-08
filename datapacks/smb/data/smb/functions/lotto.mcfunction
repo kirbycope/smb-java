@@ -5,6 +5,7 @@ execute as @a[x=16,y=65,z=0,distance=..1] run playsound entity.item.pickup music
 # ⍰ > 🍄
 execute as @a[x=21,y=65,z=0,distance=..1] run setblock 21 67 0 minecraft:blue_stained_glass
 execute as @a[x=21,y=65,z=0,distance=..1] run playsound block.lava.pop music @s
+execute as @a[x=21,y=65,z=0,distance=..1] run playsound scoreboard players set @s size 1
 # ⍰
 execute as @a[x=22,y=69,z=0,distance=..1] run setblock 22 71 0 minecraft:blue_stained_glass
 execute as @a[x=22,y=69,z=0,distance=..1] run playsound entity.item.pickup music @s
