@@ -1,3 +1,5 @@
+# ⍰
+execute as @a[x=16,y=65,z=0,distance=..1] run setblock 16 67 0 minecraft:blue_stained_glass
 execute as @a[x=16,y=65,z=0,distance=..1] run playsound entity.item.pickup music @s
 execute as @a[x=16,y=65,z=0,distance=..1] run title @s times 1 2 3
 execute as @a[x=16,y=65,z=0,distance=..1] run title @s title 100
