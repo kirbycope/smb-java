@@ -7,7 +7,7 @@ execute as @a[scores={crouching=1,facing=0,size=0}] run item replace entity @s a
 # Luigi Small - Crouching, looking left
 execute as @a[scores={crouching=1,facing=1,size=0}] run item replace entity @s armor.head with minecraft:carved_pumpkin{CustomModelData:24}
 # Luigi Small - Jumping, looking right
-execute as @a[scores={crouching=0,facing=0,jumping=1,size=0}] run item replace entity @s armor.head with minecraft:carved_pumpkin{CustomModelData:26} 
+execute as @a[scores={crouching=0,facing=0,jumping=1,size=0}] run item replace entity @s armor.head with minecraft:carved_pumpkin{CustomModelData:25} 
 # Luigi Small - Jumping, looking left
 execute as @a[scores={crouching=0,facing=1,jumping=1,size=0}] run item replace entity @s armor.head with minecraft:carved_pumpkin{CustomModelData:26} 
 
