@@ -62,7 +62,7 @@ execute as @a[tag=timeout] run function smb:timeout
 execute as @a[scores={timer=1..}] run scoreboard players add @s timer 1
 
 # Reset player if they run all the way left
-execute as @a[x=-1,y=64,z=0,distance=..1.5] run tag @s remove init
+execute as @a[x=-1,y=64,z=0,distance=..1.5] run tag @s add intro
 
 # Reset player if they run all the way right
-execute as @a[x=223,y=64,z=0,distance=..1.5] run tag @s remove init
+execute as @a[x=223,y=64,z=0,distance=..1.5] run tag @s add intro
