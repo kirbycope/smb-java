@@ -7,6 +7,28 @@
     {"predicate": {"custom_model_data":4}, "model": "item/carved_pumpkin_4"},
     {"predicate": {"custom_model_data":5}, "model": "item/carved_pumpkin_5"},
     {"predicate": {"custom_model_data":6}, "model": "item/carved_pumpkin_6"},
-    {"predicate": {"custom_model_data":7}, "model": "item/carved_pumpkin_7"}
+    {"predicate": {"custom_model_data":7}, "model": "item/carved_pumpkin_7"},
+
+    {"predicate": {"custom_model_data":8}, "model": "item/carved_pumpkin_01"},
+    {"predicate": {"custom_model_data":9}, "model": "item/carved_pumpkin_02"},
+    {"predicate": {"custom_model_data":10}, "model": "item/carved_pumpkin_04"},
+    {"predicate": {"custom_model_data":11}, "model": "item/carved_pumpkin_05"},
+    {"predicate": {"custom_model_data":12}, "model": "item/carved_pumpkin_06"},
+    {"predicate": {"custom_model_data":13}, "model": "item/carved_pumpkin_07"},
+    
+    {"predicate": {"custom_model_data":14}, "model": "item/carved_pumpkin_l1"},
+    {"predicate": {"custom_model_data":15}, "model": "item/carved_pumpkin_l2"},
+    {"predicate": {"custom_model_data":16}, "model": "item/carved_pumpkin_l3"},
+    {"predicate": {"custom_model_data":17}, "model": "item/carved_pumpkin_l4"},
+    {"predicate": {"custom_model_data":18}, "model": "item/carved_pumpkin_l5"},
+    {"predicate": {"custom_model_data":19}, "model": "item/carved_pumpkin_l6"},
+    {"predicate": {"custom_model_data":20}, "model": "item/carved_pumpkin_l7"},
+
+    {"predicate": {"custom_model_data":21}, "model": "item/carved_pumpkin_l01"},
+    {"predicate": {"custom_model_data":22}, "model": "item/carved_pumpkin_l02"},
+    {"predicate": {"custom_model_data":23}, "model": "item/carved_pumpkin_l04"},
+    {"predicate": {"custom_model_data":24}, "model": "item/carved_pumpkin_l05"},
+    {"predicate": {"custom_model_data":25}, "model": "item/carved_pumpkin_l06"},
+    {"predicate": {"custom_model_data":26}, "model": "item/carved_pumpkin_l07"}
   ]
 }

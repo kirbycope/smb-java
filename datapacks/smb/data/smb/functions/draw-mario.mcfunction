@@ -1,15 +1,15 @@
 # Mario Small - Standing, looking right
-execute as @a[scores={crouching=0,facing=0,jumping=0,size=0}] run item replace entity @s armor.head with minecraft:carved_pumpkin{CustomModelData:1}
+execute as @a[scores={crouching=0,facing=0,jumping=0,size=0}] run item replace entity @s armor.head with minecraft:carved_pumpkin{CustomModelData:8}
 # Mario Small - Standing, looking left
-execute as @a[scores={crouching=0,facing=1,jumping=0,size=0}] run item replace entity @s armor.head with minecraft:carved_pumpkin{CustomModelData:2}
+execute as @a[scores={crouching=0,facing=1,jumping=0,size=0}] run item replace entity @s armor.head with minecraft:carved_pumpkin{CustomModelData:9}
 # Mario Small - Crouching, looking right
-execute as @a[scores={crouching=1,facing=0,size=0}] run item replace entity @s armor.head with minecraft:carved_pumpkin{CustomModelData:4}
+execute as @a[scores={crouching=1,facing=0,size=0}] run item replace entity @s armor.head with minecraft:carved_pumpkin{CustomModelData:10}
 # Mario Small - Crouching, looking left
-execute as @a[scores={crouching=1,facing=1,size=0}] run item replace entity @s armor.head with minecraft:carved_pumpkin{CustomModelData:5}
+execute as @a[scores={crouching=1,facing=1,size=0}] run item replace entity @s armor.head with minecraft:carved_pumpkin{CustomModelData:11}
 # Mario Small - Jumping, looking right
-execute as @a[scores={crouching=0,facing=0,jumping=1,size=0}] run item replace entity @s armor.head with minecraft:carved_pumpkin{CustomModelData:6} 
+execute as @a[scores={crouching=0,facing=0,jumping=1,size=0}] run item replace entity @s armor.head with minecraft:carved_pumpkin{CustomModelData:12} 
 # Mario Small - Jumping, looking left
-execute as @a[scores={crouching=0,facing=1,jumping=1,size=0}] run item replace entity @s armor.head with minecraft:carved_pumpkin{CustomModelData:7} 
+execute as @a[scores={crouching=0,facing=1,jumping=1,size=0}] run item replace entity @s armor.head with minecraft:carved_pumpkin{CustomModelData:13} 
 
 # Mario Big - Standing, looking right
 execute as @a[scores={crouching=0,facing=0,jumping=0,size=1}] run item replace entity @s armor.head with minecraft:carved_pumpkin{CustomModelData:1}
